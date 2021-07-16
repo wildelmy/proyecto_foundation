@@ -1,0 +1,48 @@
+#title{
+    height: 144px;
+    width: 328px;
+    left: 0px;
+    top: 32px;
+    border-radius: nullpx;
+    Text Style: Mobile/h1
+    font-family: impact;
+    Font-style: Black;
+    Font-size: 50px;
+    Line-height: 48px;
+    Line-height: 79%;
+    Align: Left;
+    Vertical-align: Center;
+    text-align: justify;
+    
+}
+
+#p_title {
+    height: 247px;
+    width: 328px;
+    left: 0px;
+    top: 208px;
+    border-radius: 0px;
+    text-align: justify;
+}
+
+#img1 {
+    height: 269.9588317871094px;
+    width: 328px;
+    left: 16px;
+    top: 64px;
+    border-radius: 0px;
+
+}
+
+.input-group {
+    width: auto;
+    border-radius: 50px;
+}
+#title_dos {
+    padding:20px;
+}
+
+#logos {
+    padding: 20px;
+}
+
