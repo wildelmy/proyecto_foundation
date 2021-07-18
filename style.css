@@ -46,3 +46,108 @@
     padding: 20px;
 }
 
+/* Jaider Carvajal*/
+
+.button{
+    border-radius: 23px;
+    margin-left: 10px;
+    width: 139px;
+    height: 48px;
+    
+}
+
+.button2{
+    background: white;
+    color: black;
+}
+
+.button2:hover{
+    background: rgb(224, 224, 224);
+    color: black;
+}
+
+.top-bar-left{
+    padding: 24px 83px 24px 83px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 579px;
+    height: 40px;
+    left: 341.87px;
+    top: 28px;
+}
+
+.top-bar-right {
+    background: white;
+    padding: 24px 83px 24px 83px;
+}
+.img-logo {
+    position: static;
+    width: 165.75px;
+    height: 40px;
+    left: 83px;
+    top: 28px;
+}
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 83px;
+    background: white;
+
+    position: static;
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px;
+}
+.dropdown.menu{
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 579px;
+    height: 40px;
+    left: 320px;
+    top: 28px;
+    
+    
+}
+ul.menu{
+    background: white;
+}
+a{
+    color: black;
+}
+
+
+@media only screen and (max-width: 360px) {
+
+    .top-bar{
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+
+    .img-logo{
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: auto;
+    }
+    
+
+    .button2{
+        visibility:hidden;
+    }
+}
+
